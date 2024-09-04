@@ -11,8 +11,6 @@ def format_number(input_string):
 
 
 def get(el):
-    result = []
-
     session = HTTP()
     
     SYMBOL = f"{el}USDT"
